@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list >
+    <ion-list-header>Correos</ion-list-header>
+    <ion-item *ngFor="let item of lista">
+      <ion-icon name="ionic" item-left></ion-icon>
+      {{ item.name }}
+    </ion-item>
+  </ion-list>
+</ion-content>
